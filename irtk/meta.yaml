@@ -1,0 +1,20 @@
+package:
+    name: irtk
+    version: 1.0
+
+source:
+    path: ../irtk
+
+build:
+    number: 0
+    
+requirements:
+    build:
+        - cmake
+        - libpng
+    run:
+        - libpng
+
+about:
+    home: https://github.com/BioMedIA/IRTK
+    license: BSD
