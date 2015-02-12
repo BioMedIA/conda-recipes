@@ -18,6 +18,6 @@ cmake  \                                                            \
     -D CMAKE_SYSTEM_PREFIX_PATH:FILEPATH=$PREFIX                    \
     ..
 
-make -j$CPU_COUNT
+make VERBOSE=1 -j$CPU_COUNT
 
 make install

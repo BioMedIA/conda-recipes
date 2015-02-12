@@ -28,6 +28,8 @@ requirements:
         - scipy
         - ipython
         - scikit-image
+        - pyzmq
+        - pil
 
 test:
     imports:
