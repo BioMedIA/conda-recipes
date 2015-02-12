@@ -1,0 +1,38 @@
+package:
+    name: python-irtk
+    version: 1.0
+
+source:
+    path: ../../python-irtk
+
+build:
+    binary_has_prefix_files:
+        - lib/python2.7/site-packages/irtk-1.0-py2.7.egg/irtk/_irtk.so
+    
+requirements:
+    build:
+        - cmake
+        - libpng
+        - irtk
+        - tbb
+        - python
+        - setuptools
+        - numpy
+        - cython
+    run:
+        - libpng
+        - irtk
+        - tbb
+        - python
+        - numpy
+        - scipy
+        - ipython
+        - scikit-image
+
+test:
+    imports:
+        - irtk
+        
+about:
+    home: https://github.com/BioMedIA/python-irtk
+    license: GPLv2

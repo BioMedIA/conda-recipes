@@ -3,7 +3,7 @@ package:
     version: 1.0
 
 source:
-    path: ../irtk
+    path: /vol/biomedic/users/kpk09/gitlab/irtk
 
 build:
     number: 0
@@ -12,8 +12,10 @@ requirements:
     build:
         - cmake
         - libpng
+        - tbb
     run:
         - libpng
+        - tbb
 
 about:
     home: https://github.com/BioMedIA/IRTK
