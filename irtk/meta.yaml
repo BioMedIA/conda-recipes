@@ -3,7 +3,7 @@ package:
     version: 1.0
 
 source:
-    path: /vol/biomedic/users/kpk09/gitlab/irtk
+    path: ../../irtk
 
 build:
     number: 0
