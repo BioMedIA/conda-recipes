@@ -19,6 +19,7 @@ requirements:
         - setuptools
         - numpy
         - cython
+        - vtk
     run:
         - libpng
         - irtk
@@ -30,6 +31,7 @@ requirements:
         - scikit-image
         - pyzmq
         - pil
+        - vtk
 
 test:
     imports:

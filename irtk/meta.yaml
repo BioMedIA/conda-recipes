@@ -13,9 +13,11 @@ requirements:
         - cmake
         - libpng
         - tbb
+        - vtk
     run:
         - libpng
         - tbb
+        - vtk
 
 about:
     home: https://github.com/BioMedIA/IRTK

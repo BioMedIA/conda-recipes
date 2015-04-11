@@ -8,6 +8,7 @@ cmake  \                                                            \
     -D PNG_PNG_INCLUDE_DIR:DIRPATH=$PREFIX/include                  \
     -D BUILD_WITH_PNG=ON                                            \
     -D BUILD_WITH_TBB=ON                                            \
+    -D BUILD_WITH_VTK=ON                                            \
     -D TBB_DEPRECATED=1                                             \
     -D TBB_INCLUDE_DIRS:DIRPATH=$PREFIX/include/                    \
     -D TBB_LIBRARY_DIRS:DIRPATH=$PREFIX/lib                         \
