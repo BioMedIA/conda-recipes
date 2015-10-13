@@ -7,7 +7,8 @@ cd build
 #       -D IRTK_INCLUDE_DIRS:DIRPATH=$PREFIX/include/                    \
 
 cmake -D IRTK_DIR=$PREFIX/lib/                                     \
-      -D PNG_LIBRARY:FILEPATH=$PREFIX/lib/libpng.so                    \
+-D IRTK_LIBRARY_DIRS:DIRPATH=$PREFIX/include/                    \
+      -D PNG_LIBRARY_DIR:FILEPATH=$PREFIX/lib/                    \
       -D TBB_INCLUDE_DIRS:DIRPATH=$PREFIX/include/                     \
       -D TBB_LIBRARY_DIRS:DIRPATH=$PREFIX/lib                          \
       ..

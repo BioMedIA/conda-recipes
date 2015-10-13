@@ -5,10 +5,6 @@ package:
 source:
     path: ../../python-irtk
 
-build:
-    binary_has_prefix_files:
-        - lib/python2.7/site-packages/irtk-1.0-py2.7.egg/irtk/_irtk.so
-    
 requirements:
     build:
         - cmake
